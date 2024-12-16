@@ -25,7 +25,7 @@ See [AHT20 datasheet](http://www.aosong.com/en/products-32.html), [AHT30 datashe
 ```
 
 ### Read data
-> The user can periodically call the aht20_read_temp_hum API to retrieve real-time data.
+> The user can periodically call the aht20_read_float API to retrieve real-time data.
 ```c
     float temp, hum;
 

@@ -2,7 +2,7 @@
  *
  * @file:    bmp280.c
  * @brief:   BMP280 driver 
- * @author:  oikiou (oikiou@outlook.com)
+ * @author:  oikiou <oikiou@outlook.com>
  * @date:    2024/12/15
  * @version: v0.0.1
  * @history: 
