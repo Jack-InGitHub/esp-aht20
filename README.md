@@ -10,7 +10,7 @@ See [AHT20 datasheet](http://www.aosong.com/en/products-32.html), [AHT30 datashe
 
 ## Usage
 
-### Initialization
+### Initialization I2C Master Bus
 > Note: Note: You need to initialize the I2C bus first.
 ```c
     i2c_master_bus_config_t i2c_bus_config = {
@@ -22,6 +22,18 @@ See [AHT20 datasheet](http://www.aosong.com/en/products-32.html), [AHT30 datashe
         .flags.enable_internal_pullup = true,
     };
     i2c_new_master_bus(&i2c_bus_config, &i2c_bushandle);
+```
+
+### Create AHT20 Sensor
+> Note: You need to create the AHT20 Sensor object first.
+```c
+    aht20_dev_handle_t aht20_handle = NULL;
+    i2c_aht20_config_t aht20_i2c_config = {
+        .i2c_config.device_address = AHT20_ADDRESS_0,
+        .i2c_config.scl_speed_hz = I2C_MASTER_FREQ_HZ,
+        .i2c_timeout = 100,
+    };
+    aht20_new_sensor(i2c_bushandle, &aht20_i2c_config, &aht20_handle);
 ```
 
 ### Read data

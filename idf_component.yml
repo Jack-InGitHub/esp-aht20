@@ -1,4 +1,4 @@
-version: "0.1.0"
+version: "0.1.1"
 description: "New i2c_master device for AHT20 humidity and temperature sensor"
 dependencies:
   cmake_utilities: 0.*
@@ -6,7 +6,7 @@ dependencies:
 issues: "https://github.com/Jack-InGitHub/esp-aht20/issues"
 repository: "git://github.com/Jack-InGitHub/esp-aht20.git"
 repository_info:
-  commit_sha: "3ef167f9ec0c7134bcbced2f939b9d5257618bd6"
+  commit_sha: "719a2e5ec52861816d3c68342547e996787a736f"
   path: /
 targets:
   - esp32
