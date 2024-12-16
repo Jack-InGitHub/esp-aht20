@@ -1,4 +1,4 @@
-[![Component Registry](https://components.espressif.com/components/espressif/aht20/badge.svg)](https://components.espressif.com/components/espressif/aht20)
+[![Component Registry](https://components.espressif.com/components/jack-ingithub/aht20/badge.svg)](components.espressif.com/components/jack-ingithub/aht20/)
 
 # Component: AHT20
 I2C driver and definition of AHT20 humidity and temperature sensor. 
