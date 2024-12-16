@@ -1,0 +1,18 @@
+dependencies:
+  cmake_utilities: 0.*
+  idf: '>=4.3'
+description: I2C driver for AHT20 humidity and temperature sensor
+issues: https://github.com/Jack-InGitHub/esp-aht20/issues
+repository: git://github.com/Jack-InGitHub/esp-aht20.git
+repository_info:
+  path: /
+targets:
+- esp32
+- esp32c2
+- esp32c3
+- esp32c6
+- esp32h2
+- esp32s2
+- esp32s3
+url: https://github.com/Jack-InGitHub/esp-aht20
+version: 1.0.0
